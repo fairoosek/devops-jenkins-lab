@@ -2,7 +2,7 @@ pipeline {
 agent any
 environment {
 VERSION = "2.0.${BUILD_NUMBER}"
-DEPLOY_SERVER = credentials('3.7.248.93')
+DEPLOY_SERVER = credentials('ec2-server-ip')
 }
 stages {
 stage('Checkout') { steps { checkout scm } }
