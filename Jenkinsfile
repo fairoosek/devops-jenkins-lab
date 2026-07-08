@@ -1,4 +1,4 @@
-ipeline {
+pipeline {
 agent any
 environment {
 APP_NAME = 'devops-app'
