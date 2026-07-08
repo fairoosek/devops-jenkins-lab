@@ -19,7 +19,7 @@ sh 'mkdir -p build && echo built > build/artifact.txt'
 }
 stage('Test') {
 steps {
-echo 'Running tests...'
+echo 'Running tests FIRO...'
 sh 'echo TEST PASSED >> build/artifact.txt'
 }
 }
